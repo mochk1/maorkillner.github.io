@@ -1,10 +1,10 @@
-const togglediv = document.getElementsByClassName('toggle')[0];
+/* const togglediv = document.getElementsByClassName('toggle')[0];
 const btn = document.getElementsByClassName('menubtn')[0];
 
 
 btn.addEventListener('click',()=>{
 togglediv.classList.toggle('hidden');
-})
+}) */
 
 
 
@@ -20,8 +20,6 @@ button.addEventListener('click',()=>{
     } else {button.innerHTML = 'Less Code'}
     
 })
-
-
 
 
 
