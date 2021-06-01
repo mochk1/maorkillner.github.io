@@ -8,22 +8,22 @@ togglediv.classList.toggle('hidden');
 
 
 
-const button = document.getElementsByClassName('morecode')[0];
+const button = document.getElementById('morecode');
 const newdiv = document.getElementsByClassName('pcard')[0];
 
 
 button.addEventListener('click',()=>{
     newdiv.classList.toggle('hidden');
     if(newdiv.classList.contains('hidden')){
-        button.innerHTML = 'More Code';
+        button.innerText = 'More Code';
 
-    } else {button.innerHTML = 'Less Code'}
+    } else {button.innerText = 'Less Code'}
     
 })
 
 
 
-const vbutton = document.getElementsByClassName('morevideo')[0];
+const vbutton = document.getElementById('morevideo')    ;
 const newvid = document.getElementsByClassName('vcard')[0];
 
 
