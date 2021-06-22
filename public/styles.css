@@ -134,8 +134,8 @@ h2.dev {
   bottom: 1.5rem;
 }
 
-#live-link,
-#code-link {
+.live-link,
+.code-link {
   padding: 10px 15px 10px 15px;
   background-color: rgb(88, 88, 87);
   border-radius: 5px;
@@ -143,8 +143,8 @@ h2.dev {
   text-decoration: none;
 }
 
-#live-link:hover,
-#code-link:hover {
+.live-link:hover,
+.code-link:hover {
   background-color: rgb(133, 133, 133);
 }
 
